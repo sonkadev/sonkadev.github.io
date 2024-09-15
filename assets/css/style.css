@@ -46,7 +46,7 @@ body{
     align-content:flex-start;
     text-align: center;
     border-style:solid;
-    border-color: rgb(0, 207, 114);
+    border-color: rgb(123, 0, 161);
     width: 20vw;
     height: 69vh;
     font-size:1vw;
@@ -79,6 +79,6 @@ a:hover{
 
 .title {
     color:blueviolet;
-    font-size: 10wv;
+    font-size: 6vh;
 }
 
