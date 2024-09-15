@@ -54,7 +54,9 @@ body{
 
 .pfp{
     width: 9vw;
-    border-radius: 20px;
+ /*   border-color:#bf0256;
+    border-style: solid;
+    maybe using?*/
 }
 
 .d{
