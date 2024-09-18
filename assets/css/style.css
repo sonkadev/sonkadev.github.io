@@ -27,6 +27,14 @@ body{
     gap:5vh; 
 }   
 
+button{
+    background-color: transparent;
+    color:white;
+    border-style: none;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
 #box1{
     display:flex;
     justify-content: center; 
@@ -36,11 +44,12 @@ body{
     border-style:solid;
     border-color: #bf0256;
     width: 20vw;
-    height: 55vh;
+    height: 45vh;
 }
 
 #box2{
-    display:flex;
+    display:none;
+    /*change it to flex when done🥺*/
     justify-content: center; 
     flex-direction: column; 
     align-content:flex-start;
