@@ -48,8 +48,7 @@ button{
 }
 
 #box2{
-    display:none;
-    /*change it to flex when done🥺*/
+    display:flex;
     justify-content: center; 
     flex-direction: column; 
     align-content:flex-start;
