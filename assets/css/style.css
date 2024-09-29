@@ -15,7 +15,26 @@ body{
     display:grid;
     justify-content: center;
     align-content: center;
+    user-select:none;
+}
 
+#welcome{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: start;
+    justify-content: center;
+}
+
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .center{
@@ -26,6 +45,13 @@ body{
     align-content:center;
     gap:5vh; 
 }   
+
+#descr {
+    margin-top: -20;
+    min-height: 3.333vh;
+    line-height: 3.333vh; 
+    overflow: hidden;
+}
 
 button{
     background-color: transparent;
@@ -45,6 +71,7 @@ button{
     border-color: #bf0256;
     width: 20vw;
     height: 45vh;
+    background-color: black;
 }
 
 #box2{
@@ -56,8 +83,9 @@ button{
     border-style:solid;
     border-color: rgb(123, 0, 161);
     width: 20vw;
-    height: 55vh;
+    height: 45vh;
     font-size:1vw;
+    background-color: black;
 }
 
 .pfp{

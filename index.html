@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,38 +11,103 @@
 <body>
     <script src="/assets/oneko/oneko.js"> </script>
     <script src="/assets/js/title.js"></script>
+    <script src="/assets/js/typed.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="/assets/js/pconfig.js"></script>
+    <div id="particles-js"></div> 
+    
 
+        
     <div class="center">
         <div id="box1">
             <a href="https://x.com/familiarcities/status/1429869513206640644">
             <img class="pfp" src="/assets/pfp.png">
             </a>
             <h1 class="name">Sonka</h1>
-            <h6 class="d">he/him</h6>
             <br>
+            <div id="descr">
+                <script>
+                     var typed = new Typed('#descr', {
+                       strings: ['14 years old.', 'Hungarian', 'I sometimes make useful stuff.','Currently learning C++, HTML and CSS.', 'I love cats. (i also have one)', '<i>[insert more ideas here]</i>'],
+                       typeSpeed: 75,
+                       backSpeed: 50, 
+                       backDelay: 500,
+                       loop: true,
+                       showCursor: false
+                     });
+                   </script>
+             </div>
             <div>
+            <b>
             <a href="https://youtube.com/@handleforsale">youtube</a> 
             <span class="d">-</span>
             <a href="https://github.com/sonkadev">github</a> 
             <span class="d">-</span> 
-            <a href="https://t.me/csutortok">telegram</a></div>
+            <a href="https://discord.com/users/1161346234833961030">discord</a></div>
+        </b>
 
+            
         </div>  
         <div id="box2">
-            <h1 class="title">About me:</h1>
-            <h2>- I'm a 14 year old person who makes random stuff.</h2>
-            <h2>- I have a cat.</h2>
-            <h2>- I'm currently learning C, html and css.</h2>
+
             <h1 class="title">Friends:</h1>
             <a href="https://abelke.hu"><h2>- Abelke</h2></a>
             <a href="https://hmar.netlify.app/"><h2>- Hammer</h2></a>
             <a href="https://lexi.lol"><h2>- Lexi</h2></a>
             <a href="https://liba.lol"><h2>- Liba</h2></a>
+            <a href="https://autizm.us"><h2>- Polokalap</h2></a>
             <a href="https://250racing.hu"><h2>- Racing</h2></a>
+            <a href="https://cablesalty.com"><h2>- Salty</h2></a>
             <a href="https://sarky.netlify.app"><h2>- Sarky</h2></a>
             <a href="https://yoursit.ee/terdik"><h2>- Terdik</h2></a>
 
             </div>
         </div>  
-</body>
+        <script>
+            particlesJS("particles-js", {
+                particles: {
+                    number: {
+                        value: 100,
+                        density: { enable: true, value_area: 800 }
+                    },
+                    color: { value: "#bf0256" },
+                    shape: {
+                        type: "circle",
+                        stroke: { width: 0, color: "#000000" },
+                        polygon: { nb_sides: 5 }
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: false
+                    },
+                    size: {
+                        value: 5,
+                        random: true
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 150,
+                        color: "#bf0256",
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 6,
+                        direction: "none",
+                        out_mode: "out"
+                    }
+                },
+                interactivity: {
+                    detect_on: "canvas",
+                    events: {
+                        onhover: { enable: true, mode: "repulse" },
+                        onclick: { enable: true, mode: "push" },
+                        resize: true
+                    }
+                },
+                retina_detect: true
+            });
+        </script>
+    </body>
 </html>
