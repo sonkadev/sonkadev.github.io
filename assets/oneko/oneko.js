@@ -10,10 +10,10 @@
   const nekoEl = document.createElement("div");
 
   let nekoPosX = window.innerWidth/2;
-  let nekoPosY = window.innerWidth/3.5;
+  let nekoPosY = window.innerWidth/2;
 
   let mousePosX = window.innerWidth/2;
-  let mousePosY = window.innerWidth/3.5;
+  let mousePosY = window.innerWidth/2;
 
 
   let frameCount = 0;
