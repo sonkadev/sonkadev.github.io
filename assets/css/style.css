@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap'); /* jobb pixel-like font (undorito a pixelify sans */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:black; 
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+    font-size: 1vw;
+    height:100%;
+    width: 100vw;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    user-select:none;
+}
+
+#welcome{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: start;
+    justify-content: center;
+}
+
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+    gap:5vh; 
+}   
+
+#descr {
+    margin-top: -20;
+    min-height: 3.333vh;
+    line-height: 3.333vh; 
+    overflow: hidden;
+}
+
+/*gh pages szeret
+amikor egy sornyi csst akarok commitolni
+ezert most negy sornyit fogok
+*/
+
+/* ^^^^  igy jartal hulyegyerek ^^^^ */
+
+button{
+    background-color: transparent;
+    color:white;
+    border-style: none;
+    font-family: "Jersey 15", sans-serif;
+
+}
+
+#box1{
+    display:flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    border-style:solid;
+    border-color: #bf0256;
+    width: 20vw;
+    height: 45vh;
+    background-color: black;
+}
+
+#box2{
+    display:flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-content:flex-start;
+    text-align: center;
+    border-style:solid;
+    border-color: rgb(123, 0, 161);
+    width: 20vw;
+    height: 45vh;
+    font-size:1vw;
+    background-color: black;
+}
+
+.pfp{
+    width: 9vw;
+}
+
+.d{
+    color:grey;
+    margin: 0 10px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    transition-duration: text-decoration 1s;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.name{
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    font-size: 4vw;
+}
+
+.title {
+    color:blueviolet;
+    font-size: 6vh;
+}
+
