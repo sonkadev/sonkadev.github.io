@@ -85,10 +85,10 @@ button{
     align-items: center; 
     text-align: center;
     border-style:solid;
-    border-color: #000;
+    border-color: #bf0256;
     width: 20vw;
     height: 45vh;
-/*   background-color: black;*/
+   background-color: black;
 backdrop-filter: blur(16px);
 }
 
